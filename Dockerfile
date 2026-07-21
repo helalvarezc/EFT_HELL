@@ -1,4 +1,4 @@
-FROM tomcat:10-jdk21-corretto
+FROM FROM tomcat:10.1.23-jre21
 MAINTAINER helalvarezc
 EXPOSE 8080
 COPY target/usuariosBuild.war /usr/local/tomcat/webapps/
